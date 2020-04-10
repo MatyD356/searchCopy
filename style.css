@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+ul {
+  padding: 1rem 2rem;
+  width: 50%;
+}
+.right__nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.nav__link {
+  margin: 0 0.5rem;
+}
+.nav__button {
+  font-weight: 500;
+  margin: 0 0.5rem;
+  background-color: #4583ed;
+  border: none;
+  color: white;
+  padding: 0.75rem 1rem;
+}
+section {
+  height: 86.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60%;
+  width: 75%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem;
+}
+.search__bar {
+  width: 45%;
+  position: relative;
+}
+input {
+  width: 100%;
+  border-radius: 25px;
+  height: 20%;
+  border: 0.1px solid #a0a0a0;
+  padding: 1.5rem 3rem;
+  cursor: text;
+}
+input:hover {
+  box-shadow: 0px 0px 5px #a0a0a0;
+}
+.search {
+  position: absolute;
+  left: 3%;
+  bottom: 50%;
+  color: #a0a0a0;
+}
+.microphone {
+  position: absolute;
+  right: 3%;
+  bottom: 50%;
+  color: #a0a0a0;
+}
+.buttons {
+  margin: 0.5rem;
+}
+button {
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  background-color: #f2f2f2;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+.button:hover {
+  border: 1px solid #b4b4b4;
+  text-decoration: none;
+}
+.bottom {
+  height: 40%;
+}
+footer {
+  flex-shrink: 0;
+  background-color: #f2f2f2;
+  display: flex;
+}
